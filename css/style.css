@@ -80,7 +80,7 @@ body {
 }
 /*Portfolio Section*/
 .portfolio-section {
-	padding: 5rem 0rem 10rem 0rem;
+	padding: 5rem 0rem 25rem 0rem;
 	background-color: cornflowerblue;
 }
 .portfolio-section h2{
@@ -88,4 +88,22 @@ body {
 	font-size: 40px;
 	color: ghostwhite;
 	padding-top: 30px;
+}
+.portfolio-section h3 {
+	color: white;
+	text-align: center;
+}
+.portfolio-section .content li{
+	text-align: center;
+	padding: 20px 0 10px 0;
+	display: inline-block;
+	float: left;
+	width: 33.33333%;
+}
+.portfolio-section a:hover{
+	cursor: pointer;
+}
+.portfolio-section img:hover{
+	border-radius: 20px;
+	border-color: white;
 }
