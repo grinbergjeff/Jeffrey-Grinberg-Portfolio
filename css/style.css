@@ -3,6 +3,11 @@ body {
 	background-color: ghostwhite;
 }
 
+h2{
+	text-align: center;
+	font-size: 40px;
+}
+
 /*Navigation CSS*/
 .nav-menu {
 	background-color: white;
@@ -58,7 +63,6 @@ body {
 }
 .about-me h2{
 	padding: 10px;
-	font-size: 40px;
 }
 .about-me h3{
 	text-align: center;
@@ -84,8 +88,6 @@ body {
 	background-color: cornflowerblue;
 }
 .portfolio-section h2{
-	text-align: center;
-	font-size: 40px;
 	color: ghostwhite;
 	padding-top: 30px;
 }
@@ -106,4 +108,10 @@ body {
 .portfolio-section img:hover{
 	border-radius: 20px;
 	border-color: white;
+}
+
+/*Contact Section*/
+.footer{
+	width= 100%;
+	padding: 4.5rem 0 4.5rem 0;
 }
