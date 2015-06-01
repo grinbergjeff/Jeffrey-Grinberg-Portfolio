@@ -1,0 +1,91 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: ghostwhite;
+}
+
+/*Navigation CSS*/
+.nav-menu {
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+.nav-menu .nav-content {
+	margin: 0 auto;
+	width: 490px;
+	height: 60px;
+}
+.nav-menu .nav-links li{
+	display:inline-block;
+	right-margin: 300rem;
+	padding-left: 30px
+}
+.nav-menu .nav-content {
+	float: right;
+	font-size: 20px;
+	-webkit-font-smoothing: antialiased;
+	padding-right: rem;
+	letter-spacing: .02em;
+}
+.nav-menu .nav-content a {
+	text-decoration: none;
+	color:dodgerblue;
+	font-weight: 800;
+}
+.nav-menu .nav-content a:hover {
+	cursor: pointer;
+}
+
+/*Introduction Section*/
+.introduction {
+	background-color: cornflowerblue;
+	background-size: cover;
+	height: 20rem;
+	padding-top: 12rem;
+}
+.introduction h1,
+.introduction h3 {
+	text-align: center;
+	color: ghostwhite;
+}
+.introduction h1 {
+	font-size: 60px
+}
+
+/*About Me Section*/
+.about-me {
+	padding: 6rem 0rem 16rem 0rem;
+}
+.about-me h2{
+	padding: 10px;
+	font-size: 40px;
+}
+.about-me h3{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.about-me .about-icons li{
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 25%;
+	color:cornflowerblue;
+}
+.about-me .about-icons h4 {
+	color: black;
+}
+.about-me .about{
+	text-align: center;
+	margin: 1.5rem;
+}
+/*Portfolio Section*/
+.portfolio-section {
+	padding: 5rem 0rem 10rem 0rem;
+	background-color: cornflowerblue;
+}
+.portfolio-section h2{
+	text-align: center;
+	font-size: 40px;
+	color: ghostwhite;
+	padding-top: 30px;
+}
