@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	background-color: ghostwhite;
+	-webkit-font-smoothing: antialiased;
 }
 
 h2{
@@ -24,22 +25,28 @@ a:visited {
 	z-index: 9999;
 	overflow: hidden;
 }
+.nav-menu .jg{
+	float: left;
+	margin: 10px 0px -10px 10px;
+	font-size: 20px;
+	color: dodgerblue; 
+	font-weight: bolder;
+}
 .nav-menu .nav-content {
+	float: right;
 	margin: 0 auto;
 	width: 490px;
 	height: 60px;
 }
 .nav-menu .nav-links li{
 	display:inline-block;
-	right-margin: 300rem;
-	padding-left: 30px
+	margin-left: 30px;
 }
-.nav-menu .nav-content {
+.nav-menu .nav-links {
 	float: right;
 	font-size: 20px;
-	-webkit-font-smoothing: antialiased;
-	padding-right: rem;
-	letter-spacing: .02em;
+	padding:1rem 1rem 0 1rem;
+	letter-spacing: .02em;	
 }
 .nav-menu .nav-content a {
 	color:dodgerblue;
@@ -154,4 +161,5 @@ a:visited {
 	width: 100%;
 	font-size: 17px;
 	font-weight:400;
+	color: black;
 }
