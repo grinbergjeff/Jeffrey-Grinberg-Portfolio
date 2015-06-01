@@ -8,6 +8,10 @@ h2{
 	font-size: 40px;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*Navigation CSS*/
 .nav-menu {
 	background-color: white;
@@ -33,7 +37,6 @@ h2{
 	letter-spacing: .02em;
 }
 .nav-menu .nav-content a {
-	text-decoration: none;
 	color:dodgerblue;
 	font-weight: 800;
 }
@@ -111,7 +114,25 @@ h2{
 }
 
 /*Contact Section*/
-.footer{
+.footer {
 	width= 100%;
-	padding: 4.5rem 0 4.5rem 0;
+	padding: 4.5rem 0 10.5rem 0;
+}
+.footer .contact-images li{
+	padding-top: 20px;
+	display: inline-block;
+	float: left;
+	width: 25%;
+	color: cornflowerblue;
+}
+.footer .contact-images p{
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 18px;
+	color: black;
+	font-weight: 900;
+}
+
+.footer a:hover{
+	cursor: pointer;
 }
